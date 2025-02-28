@@ -48,7 +48,4 @@ mongodb_data/
 .eslintcache
 ._*
 Thumbs.db
-ehthumbs.db
-
-# Ignore zkHack directory
-zkHack/ 
+ehthumbs.db 
