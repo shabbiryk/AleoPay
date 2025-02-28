@@ -1,0 +1,20 @@
+{
+  "name": "aleopay",
+  "version": "1.0.0",
+  "description": "Invoice and payment system built on Aleo",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "install:all": "npm install && cd client && npm install && cd ../server && npm install",
+    "start:client": "cd client && npm start",
+    "start:server": "cd server && npm start",
+    "dev": "concurrently \"npm run start:server\" \"npm run start:client\"",
+    "build": "cd client && npm run build",
+    "deploy": "npm run build && npm run start:server",
+    "start": "cd server && NODE_ENV=production node index.js"
+  },
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
+} 
