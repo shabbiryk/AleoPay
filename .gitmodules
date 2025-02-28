@@ -1,6 +1,14 @@
+# AleoPay Submodules Configuration
+# These submodules provide the necessary Aleo development tools
+
+# Leo is the programming language for writing zero-knowledge applications
 [submodule "leo"]
 	path = leo
 	url = https://github.com/AleoHQ/leo
+	branch = master
+
+# snarkOS is the Aleo network protocol implementation
 [submodule "snarkOS"]
 	path = snarkOS
 	url = https://github.com/AleoHQ/snarkOS
+	branch = master
